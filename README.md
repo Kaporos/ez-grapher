@@ -1,6 +1,6 @@
 # Usage
 
-Create one folder inside of `data` directory per graph you want to made. (look at samples)
+Create one folder inside of `data` directory per graph you want to make. (look at samples)
 
 Then, inside graph's folder, create as many files `.txt` as you want (and each of them will be plotted on the same graph), following this format:
     
