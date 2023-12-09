@@ -1,0 +1,5 @@
+Super courbe
+Temps, Volume
+10,50
+20,60
+30,70
