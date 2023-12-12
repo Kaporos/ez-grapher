@@ -7,7 +7,8 @@ mpl.rcParams['figure.dpi'] = 120
 
 
 prop = fm.FontProperties(fname='Montserrat-Medium.ttf', weight='bold', size=10)
-if len([x for x in sys.argv if "clean" in x]) == 0:
+print(sys.argv)
+if len([x for x in sys.argv if "nogrid" in x]) == 0:
     plt.style.use([x for x in plt.style.available if "whitegrid" in x][0])
 
 dashed = len([x for x in sys.argv if "dashed" in x])
@@ -30,7 +31,7 @@ for foldername in os.listdir('data'):
         if type == "points":
             plt.scatter(dataX, dataY, label=line_label)
         else:
-            plt.plot(dataX, dataY, ('--' if dashed else '-') + 'o' if type == "both" else '', label=line_label)
+            plt.plot(dataX, dataY, ('--' if dashed else '-') + ('o' if type == "both" else ''), label=line_label)
         
 
         plt.ylabel(xlabel, fontproperties=prop)
