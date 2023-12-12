@@ -2,7 +2,7 @@ This script was written fast, it's not meant to be beautiful code lmaoo forgive 
 
 # Usage
 
-Create one folder inside of `data` directory per graph you want to make. (look at samples)
+Create one folder inside of `data` directory per graph you want to make. (The name of the folder will be the name of the graph, look at samples)
 
 Then, inside graph's folder, create as many files `.txt` as you want (and each of them will be plotted on the same graph), following this format:
 
