@@ -1,3 +1,5 @@
+This script was written fast, it's not meant to be beautiful code lmaoo forgive me for this cursed (yet working) script
+
 # Usage
 
 Create one folder inside of `data` directory per graph you want to make. (look at samples)
