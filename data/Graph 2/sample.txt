@@ -1,3 +1,4 @@
+both
 Courbe 1
 Temps, Volume
 1, 750
