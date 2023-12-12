@@ -34,8 +34,8 @@ for foldername in os.listdir('data'):
             plt.plot(dataX, dataY, ('--' if dashed else '-') + ('o' if type == "both" else ''), label=line_label)
         
 
-        plt.ylabel(xlabel, fontproperties=prop)
-        plt.xlabel(ylabel, fontproperties=prop)
+        plt.xlabel(xlabel, fontproperties=prop)
+        plt.ylabel(ylabel, fontproperties=prop)
     title = foldername
     plt.title(title, fontproperties=prop)
     plt.legend(prop=prop)
